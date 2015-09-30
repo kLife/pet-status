@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>ペットステータス計算機 - kLife</title>
+<link href="../common-content/css/ui-select.css?v=20140922" rel="stylesheet" />
+<link href="../common-content/css/ui-number-input.css?v=20140922" rel="stylesheet" />
+<link href="./css/main.css?v=20140922" rel="stylesheet" />
+<script src="../common-content/js/lib/jquery-1.11.0.min.js"></script>
+<script src="../common-content/js/core.js?v=20140922"></script>
+<script src="../common-content/js/ui-select.js?v=20140922"></script>
+<script src="../common-content/js/ui-number-input.js?v=20140922"></script>
+<script src="./js/main.js?v=20140922"></script>
+</head>
+<body>
+	<div class="pet-status">
+		<div>
+			<div class="section-title">ペット</div>
+			<div class="section-body">
+				<div class="section-content">
+					<div class="search-form">
+						<input type="text" size="16" placeholder="モンスター名" />
+						<button type="button" >検索</button>
+					</div>
+				</div>
+				<div class="section-content">
+					<span class="select-group select-area"></span>
+					<span class="select-monster select-area"></span>
+					<span class="select-label">レベル</span>
+					<span class="input-status-level select-area"></span>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="section-title">テイマ</div>
+			<div class="section-body">
+				<div class="section-content">
+					<span class="select-label">力</span>
+					<span class="input-status-str select-area"></span>
+					<span class="select-label">敏捷</span>
+					<span class="input-status-agi select-area"></span>
+				</div>
+				<div class="section-content">
+					<span class="select-label">全体のスキルレベル</span>
+					<span class="input-all-skill select-area"></span>
+					<span class="select-label">命令</span>
+					<span class="select-instruct select-area"></span>
+					<span class="input-skill-instruct select-area"></span>
+				</div>
+				<div class="detail-setting-area">
+					<div class="section-content">
+						<span class="select-label">励ます</span>
+						<span class="input-skill-encourage select-area"></span>
+						<span class="select-label">褒める</span>
+						<span class="input-skill-praise select-area"></span>
+						<span class="select-label">唐辛子</span>
+						<span class="input-skill-pepper select-area"></span>
+					</div>
+					<div class="section-content">
+						<span class="select-label">憂鬱</span>
+						<span class="input-skill-blue select-area"></span>
+						<span class="select-label">風雨</span>
+						<span class="input-skill-storm select-area"></span>
+						<span class="select-label">のどか</span>
+						<span class="input-skill-mild select-area"></span>
+						<span class="select-label">気まぐれ</span>
+						<span class="input-skill-mobility select-area"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="section-title">結果</div>
+			<div class="section-body">
+				<div class="section-content">
+					<table class="result-table base">
+						<tr>
+							<th>レベル</th>
+							<th>HP</th>
+							<th>攻撃</th>
+							<th>防御</th>
+							<th>攻撃速度</th>
+						</tr>
+						<tr>
+							<td class="result-table-level"></td>
+							<td class="result-table-hp"></td>
+							<td class="result-table-attack"></td>
+							<td class="result-table-defense"></td>
+							<td class="result-table-at-speed"></td>
+						</tr>
+					</table>
+				</div>
+				<div class="section-content">
+					<table class="result-table regist">
+						<tr>
+							<th>火</th>
+							<th>水</th>
+							<th>風</th>
+							<th>土</th>
+							<th>光</th>
+							<th>闇</th>
+						</tr>
+						<tr>
+							<td class="result-table-res-fire"></td>
+							<td class="result-table-res-water"></td>
+							<td class="result-table-res-wind"></td>
+							<td class="result-table-res-earth"></td>
+							<td class="result-table-res-light"></td>
+							<td class="result-table-res-dark"></td>
+						</tr>
+					</table>
+				</div>
+				<div class="section-content">
+					<table class="result-table status">
+						<tr>
+							<th>力</th>
+							<th>敏捷</th>
+							<th>健康</th>
+							<th>知識</th>
+							<th>知恵</th>
+							<th>威厳</th>
+							<th>運</th>
+						</tr>
+						<tr>
+							<td class="retult-table-status-str"></td>
+							<td class="retult-table-status-agi"></td>
+							<td class="retult-table-status-con"></td>
+							<td class="retult-table-status-wis"></td>
+							<td class="retult-table-status-wis"></td>
+							<td class="retult-table-status-chs"></td>
+							<td class="retult-table-status-luc"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

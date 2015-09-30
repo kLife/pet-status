@@ -1,0 +1,104 @@
+﻿/* Default
+------------------------------------------------------------ */
+button:focus,
+input:focus,
+textarea:focus {
+	outline: none;
+}
+
+body {
+	background-color: #e5e5e5;
+}
+
+/* Main
+------------------------------------------------------------ */
+.pet-status {
+	width: 535px;
+	font-size: 80%;
+}
+
+.section-title {
+	margin: 3px 0 0 0;
+	width: 535px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 10px 10px 0 0;
+	border: 1px solid #aab;
+	border-bottom: 2px solid #aab;
+	background-color: #ddf;
+	color: #555;
+	text-align: center;
+	font-weight: bold;
+}
+
+.section-body {
+	margin-top: 0;
+	padding: 1px;
+	text-align: left;
+}
+
+.section-content {
+	margin: 5px;
+}
+
+/* search-form
+------------------------------------------------------------ */
+.search-form {
+	text-align: right;
+}
+
+/* ui-select elements
+------------------------------------------------------------ */
+.select-area {
+	line-height: 22px;
+}
+.select-label {
+	margin-left: 3px;
+}
+.detail-setting-area {
+	margin: 8px 0 0 5px;
+	background-color: #dadada;
+	border: solid 1px #bbb;
+	padding: 2px;
+	width: 510px;
+}
+
+	.search-keyword {
+		background-color: #ff0;
+	}
+
+	.search-result-count {
+		color: #999;
+		font-weight: bold;
+	}
+
+/* monster status
+------------------------------------------------------------ */
+.result-table {
+	
+}
+	.result-table th {
+		text-align: center;
+		border: 1px solid #888;
+		border-radius: 7px 7px 0 0;
+		background-color: #ddd;
+		color: #555;
+		padding: 5px;
+	}
+	.result-table.base th {
+		width: 91px;
+	}
+	.result-table.regist th {
+		width: 74px;
+	}
+	.result-table.status th {
+		width: 63px;
+	}
+	.result-table td {
+		text-align: center;
+		background-color: #fff;
+		border: 1px solid #999;
+		padding: 3px;
+		font-size: 90%;
+		height: 15px;
+	}
